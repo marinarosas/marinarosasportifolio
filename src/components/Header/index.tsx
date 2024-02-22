@@ -37,6 +37,10 @@ export function Header() {
     router.push(`/app/tech-stack`);
   }
 
+  function handleNavigateToProjectsPage() {
+    router.push(`/app/projects-page`);
+  }
+
   return (
     <header className="h-20 bg-white text-gray-500 shadow-sm">
       {/* WEB */}
@@ -110,9 +114,9 @@ export function Header() {
           <a
             href="#project"
             className="text-md font-light leading-6 text-gray-400"
-            // onClick={() => {
-            //   handleNavigateToHomePage("#contact");
-            // }}
+            onClick={() => {
+              handleNavigateToProjectsPage();
+            }}
           >
             Projetos
           </a>

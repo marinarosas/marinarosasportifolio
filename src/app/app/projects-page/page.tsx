@@ -1,3 +1,4 @@
+import { CardProjects } from "@/components/CardProjects";
 import Image from "next/image";
 import { BsBuilding } from "react-icons/bs";
 import { FaRegCalendarAlt } from "react-icons/fa";
@@ -97,33 +98,19 @@ const iconStack = [
   },
 ];
 
-export default function TechStackPage() {
+export default function ProjectsPage() {
   return (
     <main className="flex h-[88vh] flex-col">
       <div className="pt-12 pl-14">
         <h1 className="text-4xl text-blue-900 pb-2 font-bold">
-          Minha Tech Stack
+          Meus Projetos
         </h1>
         <h3 className="text-base text-gray-500">
           Tecnologias que eu venho trabalhando recentemente
         </h3>
       </div>
-      <div className="px-4 py-12 grid grid-cols-6 grid-rows-3 place-content-center gap-16">
-        {iconStack.map((icon) => {
-          return (
-            <div
-              key={icon.srcImage}
-              className="flex flex-col justify-center items-center gap-2"
-            >
-              <img
-                src={icon.srcImage}
-                alt={icon.altImage}
-                className="size-20"
-              />
-              <p>{icon.title}</p>
-            </div>
-          );
-        })}
+      <div className="px-14 py-8">
+      <CardProjects/>
       </div>
     </main>
   );
