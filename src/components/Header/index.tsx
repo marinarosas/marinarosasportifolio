@@ -33,6 +33,10 @@ export function Header() {
     router.push(`/app/about`);
   }
 
+  function handleNavigateToTechStackPage() {
+    router.push(`/app/tech-stack`);
+  }
+
   return (
     <header className="h-20 bg-white text-gray-500 shadow-sm">
       {/* WEB */}
@@ -86,8 +90,8 @@ export function Header() {
             Home
           </a>
           <a
-            href="#aboutus"
-            className="text-md font-light leading-6 text-gray-400"
+            // href="#aboutus"
+            className="text-md font-light leading-6 text-gray-400 hover:cursor-pointer"
             onClick={() => {
               handleNavigateToAboutPage();
             }}
@@ -95,11 +99,11 @@ export function Header() {
             Sobre
           </a>
           <a
-            href="#ourpartnership"
+            // href="#ourpartnership"
             className="text-md font-light leading-6 text-gray-400"
-            // onClick={() => {
-            //   handleNavigateToHomePage("#ourpartnership");
-            // }}
+            onClick={() => {
+              handleNavigateToTechStackPage();
+            }}
           >
             Tech Stack
           </a>
