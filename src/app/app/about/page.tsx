@@ -12,7 +12,7 @@ const formations = [
     date: "Ago de 2022 - Mar de 2023",
   },
   {
-    title: "Graduação em Gastromia",
+    title: "Graduação em Gastronomia",
     time: "Full time",
     place: "Universidade Potiguar",
     location: "RN",
