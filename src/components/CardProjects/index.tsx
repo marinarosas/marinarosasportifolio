@@ -33,6 +33,17 @@ export function CardProjects() {
       year: "2023",
     },
     {
+      image: "/1679941023599.gif",
+      title: "Aplicativo Donko",
+      about: "Donko foi o aplicativo vencedor do Hackathon Rio Empreender Criativo, uma plataforma para auxiliar as pessoas a encontrar cultura na palma da mão, utilizando o mapa para mostrar o evento mais perto do usuário.",
+      stacks: "React, Typescript e CSS.",
+      link: "https://linktr.ee/sambia?utm_source=linktree_admin_share",
+      linkGit: "https://github.com/SahBianchi/hackrio-front",
+      placeWork: "Hackathon Rio Empreender Criativo",
+      siteWork: "",
+      year: "2023",
+    },
+    {
       image: "/labook.png",
       title: "Projeto Labook Backend",
       about:
@@ -58,7 +69,7 @@ export function CardProjects() {
       year: "2023",
     },
     {
-      image: "/projetoReactApi.png",
+      image: "/1675254420010.gif",
       title: "Projeto React APIs",
       about:
         "O objetivo deste projeto é criar um site com três páginas usando a PokeApi - API com as seguintes ferramentas: React, React Router, Styled-components, React Context e Axios.",
