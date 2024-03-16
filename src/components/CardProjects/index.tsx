@@ -24,7 +24,7 @@ export function CardProjects() {
     {
       image: "/iconeTela.png",
       title: "Site Icone Energia",
-      about: "O site da empresa Icone foi feita em conjunto com o Frabricio Dantas, eu fui responsável pela página Sobre do site e o footer.",
+      about: "O site da empresa Icone foi feita em conjunto com o Frabricio Dantas, eu fui responsável pela página referente ao sobre do site e o footer.",
       stacks: "React, Typescript, Chakra UI, Swipper e CSS.",
       link: "https://iconeenergia.com.br/sobre",
       linkGit: "",
@@ -98,7 +98,7 @@ export function CardProjects() {
       image: "/meuportifolio.png",
       title: "Meu Portifolio (Versão Anterior)",
       about:
-        "O objetivo é reproduzir um site portfólio através de um template pronto do Figma. Eu usei HTML and CSS para construir as funcionalidades da minha página.",
+        "O objetivo é reproduzir um site portfólio através de um template pronto do Figma, onde usei HTML and CSS para construir as funcionalidades da minha página.",
       stacks: "HTML, CSS",
       link: "https://projetoportifolio-topaz.vercel.app/",
       linkGit: "https://github.com/marinajaudy/projetoportifolio",
@@ -110,7 +110,7 @@ export function CardProjects() {
       image: "/adoteumhorta.png",
       title: "Adote uma Horta",
       about:
-        "Projeto realizado como UI/UX designer no Hackathon Cidades Sustentáveis em junho de 2022, utilizei o Figma para criar o design e prototipar",
+        "Projeto realizado como UI/UX designer no Hackathon Cidades Sustentáveis em junho de 2022, onde utilizei o Figma para criar o design e prototipar",
       stacks: "Figma",
       link: "https://www.figma.com/file/3mDm9mW4K6qPSUzuYx5czk/Adote-uma-Horta?type=design&node-id=0-1&mode=design&t=32yXP5gTuFENcWrC-0",
       linkGit: "",
@@ -122,7 +122,7 @@ export function CardProjects() {
       image: "/telasServicoFunerarios.png",
       title: "Serviços Funerários",
       about:
-        "Projeto realizado como UI/UX designer no Hackathon Experimenta Serviços Públicos de Guarulhos em maio de 2022, utilizei o Adobe Ux para criar o design e prototipar.",
+        "Projeto realizado como UI/UX designer no Hackathon Experimenta Serviços Públicos de Guarulhos em maio de 2022, onde utilizei o Adobe Ux para criar o design e prototipar.",
       stacks: "Adobe XD",
       link: "https://youtu.be/iwkqwzvobQY",
       linkGit: "",
@@ -134,7 +134,7 @@ export function CardProjects() {
       image: "/minasabordo.png",
       title: "Minas Abordo",
       about:
-        "Projeto realizado como UI/UX designer no Hackathon Ade Sampa em janeiro de 2022, utilizei o Figma para criar o design e prototipar.",
+        "Projeto realizado como UI/UX designer no Hackathon Ade Sampa em janeiro de 2022, onde utilizei o Figma para criar o design e prototipar.",
       stacks: "Figma",
       link: "https://www.figma.com/file/nPINxd2hMGjlHqflSzTjHZ/App-Hacka?t=Kxh8WEYiTOTkGgqz-0",
       linkGit: "",
@@ -161,7 +161,7 @@ export function CardProjects() {
               />
             </div>
 
-            <div className="grid grid-rows-5 h-full pt-4 justify-center items-center">
+            <div className="grid grid-rows-5 h-full pt-4 justify-center items-center gap-1">
               <h1 className="row-span-1 font-bold w-full px-4 text-lg">
                 {project.title}
               </h1>

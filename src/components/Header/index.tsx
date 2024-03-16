@@ -90,7 +90,7 @@ export function Header() {
         <Popover.Group className="hidden lg:flex lg:gap-x-12 h-20 w-7/12 items-center">
           <a
             href="#homepage"
-            className="text-md font-light leading-6 text-gray-400"
+            className="text-md font-light leading-6 text-gray-400 hover:cursor-pointer"
             onClick={() => {
               handleNavigateToHomePage();
             }}
@@ -108,7 +108,7 @@ export function Header() {
           </a>
           <a
             // href="#ourpartnership"
-            className="text-md font-light leading-6 text-gray-400"
+            className="text-md font-light leading-6 text-gray-400 hover:cursor-pointer"
             onClick={() => {
               handleNavigateToTechStackPage();
             }}
@@ -117,7 +117,7 @@ export function Header() {
           </a>
           <a
             href="#project"
-            className="text-md font-light leading-6 text-gray-400"
+            className="text-md font-light leading-6 text-gray-400 hover:cursor-pointer"
             onClick={() => {
               handleNavigateToProjectsPage();
             }}
@@ -126,7 +126,7 @@ export function Header() {
           </a>
           <a
             href="#contact"
-            className="text-md font-light leading-6 text-gray-400"
+            className="text-md font-light leading-6 text-gray-400 hover:cursor-pointer"
             onClick={() => {
               handleNavigateToContactPage();
             }}

@@ -102,10 +102,10 @@ export default function TechStackPage() {
     <main className="flex h-[88vh] flex-col">
       <div className="pt-12 pl-14">
         <h1 className="text-4xl text-blue-900 pb-2 font-bold">
-          Minha Tech Stack
+          Minhas Tech Stacks
         </h1>
         <h3 className="text-base text-gray-500">
-          Tecnologias que eu venho trabalhando recentemente
+          Tecnologias que venho trabalhando recentemente
         </h3>
       </div>
       <div className="px-4 py-12 grid grid-cols-6 grid-rows-3 place-content-center gap-16">

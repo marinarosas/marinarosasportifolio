@@ -6,8 +6,8 @@ export default function ContactPage() {
   return (
     <>
       <main className="flex flex-col justify-center items-center h-screen -mt-12">
-        <h1 className="text-6xl text-blue-900 pb-2 font-bold">
-          Qualquer coisa só enviar um e-mail:
+        <h1 className="text-5xl text-blue-900 pb-2 font-bold">
+          Para entrar em contato comigo, envie um e-mail para:
         </h1>
         <h3 className="text-5xl h-20 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500">
           marinarrjaudy@hotmail.com
@@ -33,7 +33,7 @@ export default function ContactPage() {
           <span>com</span>
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500">Amor & Café</span>
 
-          <div className="flex pl-4">
+          <div className="flex pl-4 gap-1">
             <a href="https://github.com/marinajaudy" target="_blank">
             <FaGithub size={30} />
             </a>
