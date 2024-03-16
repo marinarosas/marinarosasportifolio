@@ -5,17 +5,17 @@ import { FaLinkedin } from "react-icons/fa";
 export default function ContactPage() {
   return (
     <>
-      <main className="flex flex-col justify-center items-center h-screen -mt-20">
+      <main className="flex flex-col justify-center items-center h-screen -mt-12">
         <h1 className="text-6xl text-blue-900 pb-2 font-bold">
           Qualquer coisa só enviar um e-mail:
         </h1>
-        <h3 className="text-5xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500">
+        <h3 className="text-5xl h-20 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500">
           marinarrjaudy@hotmail.com
         </h3>
       </main>
       <footer className="flex h-12 w-full justify-between items-center absolute bottom-0 px-12">
       <a href="#" className="text-3xl font-semibold">{"{MJ}"}</a>
-      <div className="text-sm">
+      <div className="text-sm space-x-2">
             <a
               href="https://api.whatsapp.com/send/?phone=5584981249920&text&type=phone_number&app_absent=0"
               target="_blank"
