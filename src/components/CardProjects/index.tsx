@@ -23,8 +23,8 @@ export function CardProjects() {
   const projects = [
     {
       image: "/iconeTela.png",
-      title: "Site Icone Energia",
-      about: "O site da empresa Icone foi feita em conjunto com o Frabricio Dantas, eu fui responsável pela página referente ao sobre do site e o footer.",
+      title: "Site Ícone Energia",
+      about: "O site da empresa Ícone foi feita em conjunto com o Frabricio Dantas, eu fui responsável pela página referente ao sobre do site e o footer.",
       stacks: "React, Typescript, Chakra UI, Swipper e CSS.",
       link: "https://iconeenergia.com.br/sobre",
       linkGit: "",
@@ -35,7 +35,7 @@ export function CardProjects() {
     {
       image: "/1679941023599.gif",
       title: "Aplicativo Donko",
-      about: "Donko foi o aplicativo vencedor do Hackathon Rio Empreender Criativo, uma plataforma para auxiliar as pessoas a encontrar cultura na palma da mão, utilizando o mapa para mostrar o evento mais perto do usuário.",
+      about: "Donko foi o aplicativo vencedor do Hackathon Rio Empreender Criativo, uma plataforma para auxiliar as pessoas a encontrar eventos culturais na palma da mão, utilizando o mapa para mostrar o evento mais perto do usuário.",
       stacks: "React, Typescript e CSS.",
       link: "https://linktr.ee/sambia?utm_source=linktree_admin_share",
       linkGit: "https://github.com/SahBianchi/hackrio-front",
