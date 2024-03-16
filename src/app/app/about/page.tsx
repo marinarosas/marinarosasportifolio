@@ -87,10 +87,10 @@ export default function AboutPage() {
       <div className="flex flex-col pb-4 text-base font-medium leading-6 text-gray-600">
         <h1 className="text-4xl font-bold text-blue-900 mb-8">Quem sou eu</h1>
         <p className="mb-4">
-          Sou desenvolvedora Fullstack, sou formada no curso de Web Full Stack,
-          na Labenu, tendo experiência em projetos práticos individuais e em
+          Sou desenvolvedora Fullstack, trabalho na área a mais de 1 ano e sou formada no curso de Web Full Stack,
+          na Labenu, na minha carreira tenho experiência em projetos práticos individuais e em
           grupo, utilizando tecnologias como HTML, CSS, JavaScript, React, SQL,
-          Node Js, Jest, TypeScript e outras. Sou pós-graduada em Cinema, Rádio
+          Node Js, Next, Jest, TypeScript e outras. Sou pós-graduada em Cinema, Rádio
           e Tv, fotógrafa e editora de vídeos há 7 anos. Sempre gostei de
           design, usando o Photoshop, Figma ou Canva. E estudando UI/UX me
           deparei com Frontend e tive certeza que dali pra frente queria me

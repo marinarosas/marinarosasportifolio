@@ -41,8 +41,12 @@ export function Header() {
     router.push(`/app/projects-page`);
   }
 
+  function handleNavigateToContactPage() {
+    router.push(`/app/contact`);
+  }
+
   return (
-    <header className="h-20 bg-white text-gray-500 shadow-sm">
+    <header className="h-20 sticky bg-white text-gray-500 shadow-sm">
       {/* WEB */}
       <nav
         className="mx-auto flex items-center justify-between p-6 lg:px-8 h-20 font-sans text-lg"
@@ -123,9 +127,9 @@ export function Header() {
           <a
             href="#contact"
             className="text-md font-light leading-6 text-gray-400"
-            // onClick={() => {
-            //   handleNavigateToHomePage("#contact");
-            // }}
+            onClick={() => {
+              handleNavigateToContactPage();
+            }}
           >
             Contato
           </a>
