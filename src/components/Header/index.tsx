@@ -3,15 +3,11 @@
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { Dialog, Popover } from "@headlessui/react";
-import {
-  Bars3Icon,
-  XMarkIcon,
-} from "@heroicons/react/24/outline";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import * as React from "react";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
-
 
 function classNames(
   ...classes: (string | boolean | undefined | null)[]
@@ -21,7 +17,6 @@ function classNames(
 
 export function Header() {
   const router = useRouter();
-
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -46,22 +41,20 @@ export function Header() {
   }
 
   return (
-    <header className="h-20 sticky bg-white text-gray-500 shadow-sm">
+    <header className="h-20 sticky bg-white text-gray-500 shadow-sm px-8">
       {/* WEB */}
       <nav
-        className="mx-auto flex items-center justify-between p-6 lg:px-8 h-20 font-sans text-lg"
+        className="mx-auto flex items-center justify-between h-20 font-sans text-lg"
         aria-label="Global"
       >
-        <div className="flex w-1/12 h-20 items-center justify-center">
-          <a
-            className="text-3xl font-bold flex items-center justify-center bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500"
-            onClick={() => {
-              handleNavigateToHomePage();
-            }}
-          >
-            {"{MJ}"}
-          </a>
-        </div>
+        <a
+          className="text-3xl font-bold flex items-center justify-center bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500"
+          onClick={() => {
+            handleNavigateToHomePage();
+          }}
+        >
+          {"{MJ}"}
+        </a>
         <div className="flex lg:hidden">
           <button
             type="button"
@@ -134,7 +127,7 @@ export function Header() {
             Contato
           </a>
         </Popover.Group>
-        <div className="hidden lg:flex justify-between items-center w-2/12 pr-8">
+        <div className="hidden lg:flex justify-between items-center w-2/12">
           <a href="https://github.com/marinajaudy" target="_blank">
             <FaGithub size={32} />
           </a>
@@ -176,35 +169,50 @@ export function Header() {
                 <a
                   href="#homepage"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-400 hover:bg-gray-50"
-                  onClick={() => handleNavigateToHomePage()}
+                  onClick={() => {
+                    handleNavigateToHomePage();
+                    setMobileMenuOpen(false);
+                  }}
                 >
                   Home
                 </a>
                 <a
                   href="#aboutus"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-400 hover:bg-gray-50"
-                  onClick={() => handleNavigateToAboutPage()}
+                  onClick={() => {
+                    handleNavigateToAboutPage();
+                    setMobileMenuOpen(false)
+                  }}
                 >
                   Sobre
                 </a>
                 <a
                   href="#ourpartnership"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-400 hover:bg-gray-50"
-                  // onClick={() => handleNavigateToHomePage("#ourpartnership")}
+                  onClick={() => {
+                    handleNavigateToTechStackPage();
+                    setMobileMenuOpen(false)
+                  }}
                 >
                   Tech Stack
                 </a>
                 <a
                   href="#ourpartnership"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-400 hover:bg-gray-50"
-                  // onClick={() => handleNavigateToHomePage("#ourpartnership")}
+                  onClick={() => {
+                    handleNavigateToProjectsPage();
+                    setMobileMenuOpen(false)
+                  }}
                 >
                   Projetos
                 </a>
                 <a
                   href="#contact"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-400 hover:bg-gray-50"
-                  // onClick={() => handleNavigateToHomePage("#contact")}
+                  onClick={() => {
+                    handleNavigateToContactPage();
+                    setMobileMenuOpen(false)
+                  }}
                 >
                   Contato
                 </a>

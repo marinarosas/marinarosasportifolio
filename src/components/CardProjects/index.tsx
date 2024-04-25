@@ -22,6 +22,30 @@ export function CardProjects() {
 
   const projects = [
     {
+      image: "/Interas.png",
+      title: "Interas Tecnologia Website",
+      about:
+        "O site foi feita em conjunto com o Frabricio Dantas, eu fui responsável pela página Easy Dev do site e o footer.",
+      stacks: "React, Typescript, Tailwind, Shadcn, SplideJs and CSS.",
+      link: "https://interas.com.br/interas/rpa",
+      linkGit: "",
+      placeWork: "Interas",
+      siteWork: "https://www.interas.com.br/",
+      year: "2024",
+    },
+    {
+      image: "/CapaSitePotyguaraVerse.png",
+      title: "Potyguara Verse (Projeto da Event Plus)",
+      about:
+        "O site está em desenvolvimento, sou responsável pela construção do site, do backend ao frontend.",
+      stacks: "React, Typescript, Tailwind, Shadcn, SplideJs and CSS.",
+      link: "https://potyguara-verse-site.vercel.app/",
+      linkGit: "",
+      placeWork: "Event Plus",
+      siteWork: "https://potyguara-verse-site.vercel.app/",
+      year: "2024",
+    },
+    {
       image: "/iconeTela.png",
       title: "Site Ícone Energia",
       about: "O site da empresa Ícone foi feita em conjunto com o Frabricio Dantas, eu fui responsável pela página referente ao sobre do site e o footer.",
@@ -155,12 +179,12 @@ export function CardProjects() {
     },
   ];
   return (
-    <div className="flex flex-wrap gap-4 justify-start px-9">
+    <div className="flex flex-wrap lg:grid lg:grid-cols-3 gap-6 lg:gap-8">
       {projects.map((project) => {
         return (
           <div
             key={project.title}
-            className="flex flex-col justify-between bg-gray-100 w-96 rounded-2xl shadow-lg overflow-hidden border-2"
+            className="flex flex-col justify-between bg-gray-100 w-full lg:w-96 rounded-2xl shadow-lg overflow-hidden border-2"
           >
             <div className="bg-white flex justify-center items-center rounded-t-2xl cover">
               <Image

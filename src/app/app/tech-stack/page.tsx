@@ -99,8 +99,8 @@ const iconStack = [
 
 export default function TechStackPage() {
   return (
-    <main className="flex h-[88vh] flex-col">
-      <div className="pt-12 pl-14">
+    <main className="flex h-full flex-col">
+      <div className="pt-12 pl-6 lg:pl-14">
         <h1 className="text-4xl text-blue-900 pb-2 font-bold">
           Minhas Tech Stacks
         </h1>
@@ -108,7 +108,7 @@ export default function TechStackPage() {
           Tecnologias que venho trabalhando recentemente
         </h3>
       </div>
-      <div className="px-4 py-12 grid grid-cols-6 grid-rows-3 place-content-center gap-16">
+      <div className="px-6 lg:px-4 py-12 grid grid-cols-3 grid-rows-6 lg:grid-cols-6 lg:grid-rows-3 place-content-center gap-16">
         {iconStack.map((icon) => {
           return (
             <div
