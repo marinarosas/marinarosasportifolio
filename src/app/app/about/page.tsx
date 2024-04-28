@@ -93,7 +93,7 @@ export default function AboutPage() {
       <div className="flex flex-col pb-4 text-base font-medium leading-6 text-gray-600">
         <h1 className="text-4xl font-bold text-blue-900 mb-8">Quem sou eu</h1>
         <p className="mb-4 leading-8">
-          Sou desenvolvedora fullstack, com mais de um ano de experiência na
+          Desenvolvedora fullstack, com mais de um ano de experiência na
           área, sou formada no curso de Web Full Stack, tendo experiência em
           projetos práticos individuais e em grupo, utilizando tecnologias como
           HTML, CSS, JavaScript, React, Node Js, TypeScript, POO, SQL, Jest e
@@ -102,7 +102,7 @@ export default function AboutPage() {
           Figma, criando softwares e sites com Next, React, Typescript e outras
           ferramentas, estou também aprendendo a desenvolver aplicações mobiles
           com React Native.
-          <br /> <br /> Sou cineasta, pós-graduada em Rádio e Tv, fotografa e
+          <br /> <br /> Também sou cineasta, pós-graduada em Rádio e Tv, fotografa e
           editora de vídeos há 7 anos, com experiência profissional. Sempre
           gostei de design e estudando UI/UX, acabei me aprofundando no tema,
           atuei em projetos como consultora, desenvolvi pesquisas do usuário,
